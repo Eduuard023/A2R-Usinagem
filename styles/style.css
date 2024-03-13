@@ -1,0 +1,192 @@
+body {
+    background-color: rgb(34, 34, 34);
+    color: #fff;
+    font-family: poppinsregular;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header img{
+    width: 100px;
+}
+
+#title{
+    margin-left: -450px;
+    flex-direction: column;
+    line-height: 10px;
+    font-size: 24px;
+}
+
+li{
+    display: inline-block;
+    margin: 20px;
+}
+
+h1{
+    font-weight: 800;
+}
+
+a{
+    color: white;
+    font-family: poppinsmedium;
+}
+
+a:hover{
+    color: #019FD9;
+    transition: 0.3s all;
+}
+
+#contact{
+    border: 2px solid #019FD9;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+#contact:hover{
+    background-color: #019FD9;
+    color: white;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+    justify-content: space-between;
+}
+
+h2{
+    font-size: 56px;
+    line-height: 10px;
+    font-family: poppinsmedium;
+}
+
+span{
+    color: #019FD9;
+}
+
+p{
+    line-height: 20px;
+    max-width: 500px;
+    font-family: poppinslight;
+}
+
+#main-image{
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+form [type='submit']{
+    height: 50px;
+    width: 50%;
+    background-color: #019FD9;
+    color: white;
+    font-weight: bold;
+}
+
+form [type='submit']:hover{
+    cursor: pointer;
+}
+
+input{
+    margin-top: 20px;
+    height: 20px;
+    padding: 15px;
+    border-radius: 20px;
+    border: none;
+    font-size: 15px;
+}
+
+#about {
+    margin-top: 100px;
+    text-align: right; 
+}
+
+#container {
+    display: flex;
+    justify-content: space-between; 
+}
+
+#about_details {
+    max-width: 600px; 
+    text-align: left; 
+}
+
+#about_title {
+    text-align: center; 
+}
+
+#event_description {
+    text-align: justify; 
+}
+
+#logo2 {
+    width: 400px;
+    height: 370px;
+    border-radius: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+#contato {
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+    justify-content: space-between;
+}
+
+#localizacao {
+    flex-basis: 50%;
+    padding-right: 20px;
+}
+
+#contato_article {
+    margin-right: 120px;
+    border: 2px solid #019FD9;
+    border-radius: 15px;
+    padding: 30px;
+}
+
+h3 {
+    color: #019FD9;
+    font-family: poppinsmedium;
+    font-size: 24px;
+
+}
+
+#telefone {
+    display: flex;
+    margin-bottom: 10px;
+    text-decoration: none;
+    padding: 10px;
+}
+
+
+footer{
+    text-align: center;
+    margin-top: 50px;
+
+}
