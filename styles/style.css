@@ -91,15 +91,31 @@ form{
     width: 70%;
 }
 
-form [type='submit']{
-    height: 50px;
-    width: 50%;
+#orcamento{
     background-color: #019FD9;
     color: white;
     font-weight: bold;
+    margin-top: 70px;
+    padding: 10px 20px; 
+    border-radius: 20px;
+    border: none;
+    font-size: 32px;
+    font-family: poppinsmedium;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    box-sizing: border-box;
+    text-decoration: none;
 }
 
-form [type='submit']:hover{
+#orcamento:hover{
+    color: #019FD9;
+    background-color: #fff;
+    transition: 0.5s all;
+}
+
+button:hover{
     cursor: pointer;
 }
 
@@ -140,15 +156,6 @@ input{
     height: 370px;
     border-radius: 50%;
 }
-
-
-
-
-
-
-
-
-
 
 
 #contato {
