@@ -1,6 +1,7 @@
 @media screen and (max-width: 760px) {
     body {
         overflow-x: hidden;
+        max-width: 80%;
     }
 
     header {
@@ -40,7 +41,7 @@
 
     #orcamento {
         margin: 0 auto;
-        width: 100%;
+        width: 80%;
         align-self: center;
     }
 
