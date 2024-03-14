@@ -1,47 +1,86 @@
 @media screen and (max-width: 760px) {
-    header{
-        flex-direction: column;
+    body {
+        overflow-x: hidden;
     }
 
-    #title{
+    header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #logo {
+        display: flex;
+        flex-direction: row;
+        width: 50px;
+    }
+
+    #title {
         margin-left: 0;
     }
 
-    main{
-        flex-direction: column;
-        text-align: center;
+    li {
+        margin-left: -5px;
+        font-size: 16px;
     }
 
-    h2{
+    #contact {
+        margin-left: -10px; /* Adicionado "px" ao valor */
+        border: none;
+    }
+
+    main {
+        flex-direction: column;
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    h2 {
         font-size: 38px;
     }
 
-    form{
+    #orcamento {
         margin: 0 auto;
         width: 100%;
-    }
-
-    input{
         align-self: center;
     }
 
-    img{
+    input {
+        align-self: center;
+    }
+
+    #main-image,
+    #logo2 {
         display: none;
     }
 
-    h1{
+    h1 {
         text-align: center;
     }
 
-    a{
+    a {
         font-size: 14px;
         text-decoration: none;
     }
 
     #contato {
-        display: block;
-        text-align: center;
+        text-align: center; 
+        margin-top: 50px;
+        align-items: center;
+        text-align: center; 
+        max-width: 100%; 
+        display: flex;
+        flex-direction: column;
     }
 
+    #localizacao{
+        align-items: center;
+        margin-left: 15px;
+    }
 
+    #contato_article{
+        align-items: center; 
+        margin-left: 130px;
+        margin-top: 30px;
+    }
 }
+
