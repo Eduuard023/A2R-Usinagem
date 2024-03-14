@@ -142,6 +142,7 @@ input{
 #about_details {
     max-width: 600px; 
     text-align: left; 
+    text-align: center;
 }
 
 #about_title {
