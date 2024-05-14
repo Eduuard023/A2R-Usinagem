@@ -28,5 +28,6 @@ Contribuições são bem-vindas! Sinta-se à vontade para enviar pull requests c
 
 ## Contato
 
-Para mais informações ou solicitações, entre em contato comigo.
+Para mais informações ou solicitações, entre em contato.
+
 **E-mail:** eduuardofeelipee@gmail.com
